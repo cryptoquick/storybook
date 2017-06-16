@@ -6,7 +6,7 @@
   },
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "bootstrap:docs": "cd docs && npmc install",
+    "bootstrap:docs": "cd docs && yarn install",
     "bootstrap:test-cra": "lerna exec --scope test-cra -- npmc install",
     "bootstrap:react-native-vanilla": "lerna exec --scope react-native-vanilla -- npmc install",
     "changelog": "pr-log --sloppy",
